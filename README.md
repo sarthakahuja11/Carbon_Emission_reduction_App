@@ -1,2 +1,2 @@
 # HCI_Project
-Repository to maintain Human Computer Interaction Code base
+Repository to maintain Human Computer Interaction Project Code base
