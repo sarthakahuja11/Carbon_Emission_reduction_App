@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.carbonemission1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:5:5-42:19
+12        android:allowBackup="true"
+12-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\kstkr\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.CarbonEmission1" >
+21-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:11:9-53
+22        <activity
+22-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:12:9-14:40
+23            android:name="com.example.carbonemission1.homescreen"
+23-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:13:13-39
+24            android:exported="false" />
+24-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:14:13-37
+25        <activity
+25-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:15:9-17:40
+26            android:name="com.example.carbonemission1.loginscreen"
+26-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:16:13-40
+27            android:exported="false" />
+27-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:17:13-37
+28        <activity
+28-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:18:9-20:40
+29            android:name="com.example.carbonemission1.signupscreen"
+29-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:19:13-41
+30            android:exported="false" />
+30-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:20:13-37
+31        <activity
+31-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:21:9-29:20
+32            android:name="com.example.carbonemission1.LoginActivity"
+32-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:22:13-42
+33            android:parentActivityName="com.example.carbonemission1.MainActivity" >
+33-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:23:13-55
+34
+35            <!-- The meta-data tag is required if you support API level 15 and lower -->
+36            <meta-data
+36-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:26:13-28:49
+37                android:name="android.support.PARENT_ACTIVITY"
+37-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:27:17-63
+38                android:value=".MainActivity" />
+38-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:28:17-46
+39        </activity>
+40        <activity
+40-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:30:9-32:40
+41            android:name="com.example.carbonemission1.mainscreen"
+41-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:31:13-39
+42            android:exported="false" />
+42-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:32:13-37
+43        <activity
+43-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:33:9-41:20
+44            android:name="com.example.carbonemission1.MainActivity"
+44-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:34:13-41
+45            android:exported="true" >
+45-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:35:13-36
+46            <intent-filter>
+46-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:36:13-40:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:37:17-69
+47-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:37:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:39:17-77
+49-->C:\Users\kstkr\AndroidStudioProjects\CarbonEmission1\app\src\main\AndroidManifest.xml:39:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kstkr\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kstkr\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+55            android:authorities="com.example.carbonemission1.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kstkr\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kstkr\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kstkr\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kstkr\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kstkr\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kstkr\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kstkr\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kstkr\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+63        </provider>
+64    </application>
+65
+66</manifest>
