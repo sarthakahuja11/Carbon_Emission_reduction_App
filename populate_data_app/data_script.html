@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      // Set annual ghg emmissions per device
+      const devices_ghg = [
+        {
+          id: 1,
+          device: "Water heater",
+          ghg_emmission_annum: 1260,
+        },
+        {
+          id: 2,
+          device: "Fridge",
+          ghg_emmission_annum: 189,
+        },
+        {
+          id: 3,
+          device: "TV, plasma",
+          ghg_emmission_annum: 189,
+        },
+        {
+          id: 3,
+          device: "Oven",
+          ghg_emmission_annum: 123,
+        },
+      ];
+
+      const date_object = new Date();
+      const today =
+        date_object.getDate() +
+        "/" +
+        (date_object.getMonth() + 1) +
+        "/" +
+        date_object.getFullYear();
+
+      const today_ghg = [];
+
+      let ghg_emmission = 0;
+      for (let device of devices_ghg) {
+        /**Read user input from the terminal console for calculating ghg for each device for that day */
+        let hours = window.prompt(
+          "Enter duration of usage for " + device.device
+        );
+        ghg_emmission = (device.ghg_emmission_annum / 365) * (hours / 24);
+        today_ghg.push({
+          today,
+          ...device,
+          hours_use: hours,
+          ghg_emmission: ghg_emmission,
+        });
+      }
+
+      console.log(today_ghg);
+    </script>
+  </head>
+  <body></body>
+</html>

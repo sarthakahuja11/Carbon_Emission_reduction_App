@@ -1,0 +1,15 @@
+{
+  "name": "populate_data_app",
+  "version": "1.0.0",
+  "description": "Populate excel data for visualization",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "xlsx": "^0.17.4"
+  }
+}
