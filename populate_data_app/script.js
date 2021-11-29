@@ -22,7 +22,7 @@ const data=xlsx.utils.sheet_to_json(worksheet);
 let newDataset=[];
 
 let i=0;
-while(i<2){
+while(i<7){
     let day = new Date(currDate.setDate(firstDayOfWeek+i))
     console.log("Reading usage for week starting "+day.getDate() + "/" + (day.getMonth() + 1) + "/" + day.getFullYear());
     const newData=data.map(function(record){
