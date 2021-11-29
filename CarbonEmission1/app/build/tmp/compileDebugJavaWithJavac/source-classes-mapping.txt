@@ -1,0 +1,19 @@
+com/example/carbonemission1/homescreen.java
+ com.example.carbonemission1.homescreen
+com/example/carbonemission1/loginscreen.java
+ com.example.carbonemission1.loginscreen
+com/example/carbonemission1/ViewPagerAdapter.java
+ com.example.carbonemission1.ViewPagerAdapter
+com/example/carbonemission1/MainActivity.java
+ com.example.carbonemission1.MainActivity
+ com.example.carbonemission1.MainActivity$1
+ com.example.carbonemission1.MainActivity$2
+com/example/carbonemission1/BuildConfig.java
+ com.example.carbonemission1.BuildConfig
+com/example/carbonemission1/signupscreen.java
+ com.example.carbonemission1.signupscreen
+ com.example.carbonemission1.signupscreen$1
+com/example/carbonemission1/mainscreen.java
+ com.example.carbonemission1.mainscreen
+ com.example.carbonemission1.mainscreen$1
+ com.example.carbonemission1.mainscreen$2
