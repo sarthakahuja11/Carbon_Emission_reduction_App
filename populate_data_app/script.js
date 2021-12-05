@@ -79,8 +79,8 @@ for (let filename of files) {
     }
     i++;
   }
-  console.log(newDataset.length);
-  console.log(newDataset);
+  //console.log(newDataset.length);
+  //console.log(newDataset);
 
   const newWorkBook = xlsx.utils.book_new();
   const newWorkSheet = xlsx.utils.json_to_sheet(newDataset);
